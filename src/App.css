@@ -1,0 +1,93 @@
+#root {
+  
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.shape1{
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgb(241, 81, 81), rgb(128, 83, 0));
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+}
+.shapes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.shape2{
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(from 0deg,rgb(231, 122, 32), rgb(241, 81, 81), rgb(128, 83, 0));
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+}
+body{
+  width: 115vw;
+color: white ;
+  /* clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%); */
+  background: linear-gradient(to right, rgb(56, 121, 59),rgb(86, 204, 155));
+  /* text-align: center; */
+  /* padding: 50px; */
+
+  background-position:inherit;
+  background-attachment:fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: space-around;
+  overflow: scroll;
+  
+  align-items: center;
+  button{
+    background: none;
+    
+  }
+}
+.active-button {
+  background-color: white;
+}
+
+.nav-link:active{
+  background-color: white;
+}
+.shape3{
+  width: 100px;
+  height: 100px;
+  background: #ff0000;
+  clip-path: polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 100%; */
+}
+.shape4{
+  width: 100px;
+  height: 100px;
+  background: #d6b959;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table, td, tr,th{
+  border: 2px solid black;
+  color: orange;
+}
+
+
